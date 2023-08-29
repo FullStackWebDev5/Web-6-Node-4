@@ -125,35 +125,36 @@ app.listen(process.env.PORT, () => {
 
 
 /*
-    REST: Representational State Transfer
-    - Standardized representation of APIs
-    - CRUD operations
+  -----------------------------------------
+  REST: Representational State Transfer
+  - Standardized representation of APIs
+  - CRUD operations
 
-    HTTP Methods:
-    - GET: 'Read' data (R)
-    - POST: 'Create' data (C)
-    - PUT/PATCH: 'Update' data (U)
-    - DELETE: 'Delete' data (D)
+  HTTP Methods:
+  - GET: 'Read' data (R)
+  - POST: 'Create' data (C)
+  - PUT/PATCH: 'Update' data (U)
+  - DELETE: 'Delete' data (D)
 
-    ## Example for E-Commerce Website:
-    - APIs for Customers 
-        - R: GET /customers
-        - C: POST /customers
-        - U: PATCH /customers/:id
-        - D: DELETE /customers/:id
-    - APIs for Sellers
-        - R: GET /sellers
-        - C: POST /sellers
-        - U: PATCH /sellers/:id
-        - D: DELETE /sellers/:id
-    - APIs for Products
-        - R: GET /products
-        - C: POST /products
-        - U: PATCH /products/:id
-        - D: DELETE /products/:id
+  ## Example for E-Commerce Website:
+  - APIs for Customers 
+      - R: GET /customers
+      - C: POST /customers
+      - U: PATCH /customers/:id
+      - D: DELETE /customers/:id
+  - APIs for Sellers
+      - R: GET /sellers
+      - C: POST /sellers
+      - U: PATCH /sellers/:id
+      - D: DELETE /sellers/:id
+  - APIs for Products
+      - R: GET /products
+      - C: POST /products
+      - U: PATCH /products/:id
+      - D: DELETE /products/:id
 
-    200: Successful
-    400: Bad Request
-    404: Not found
-    500: Internal Server Error
+  200: Successful
+  400: Bad Request
+  404: Not found
+  500: Internal Server Error
 */
